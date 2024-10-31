@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import ResultDisplay from "./ResultDisplay";
 
 interface UploadResponseProps {
   isUploading: boolean;

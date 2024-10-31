@@ -36,7 +36,7 @@ export default function ImageUploadPage() {
 
     try {
       const response = await fetch(
-        `${process.env.NEXT_BACKEND_BASE_URL}/upload/`,
+        `${process.env.NEXT_PUBLIC_BACKEND_BASE_URL}/upload/`,
         {
           method: "POST",
           body: formData,
