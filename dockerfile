@@ -1,5 +1,3 @@
-# Use the official latest Node.js image.
-# See https://hub.docker.com/_/node
 FROM node:latest
 
 # Create app directory
